@@ -12,7 +12,7 @@ Flush supports the following:
 - Background tasks, with a custom implementation of the `jobs` command
 - Pipelines
 
-See examples and screenshots below.
+See examples below.
 
 ## Running the application
 
@@ -83,4 +83,3 @@ ls -l | grep flush > out.txt
 
 # Terminate the program using CTRL + D
 ```
-
