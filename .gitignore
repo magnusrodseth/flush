@@ -1,0 +1,9 @@
+cmake-build-debug
+build
+.idea
+*.cmake
+CmakeCache.txt
+/CMakeFiles
+flush
+Makefile
+.DS_Store
