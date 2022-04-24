@@ -1,8 +1,18 @@
-# Assignment 3
+# Flush: Famous little Unix shell
 
-## Developer Information
+## What is Flush?
 
-Developed by Magnus Rødseth, Julian Grande & Sebastian Sole.
+Flush is a console application with much of the same functionality as a simple
+Unix shell, written in C.
+
+Flush supports the following:
+
+- Running executables in your `PATH`, for instance `ls`, `cd`, `grep`, etc...
+- I/O redirection
+- Background tasks, with a custom implementation of the `jobs` command
+- Pipelines
+
+See examples and screenshots below.
 
 ## Running the application
 
@@ -47,7 +57,7 @@ src/process.c -o flush
 
 ```shell
 # Execute some system call
-ls -l 
+ls -l
 echo "Hello, world!"
 sleep 2
 
@@ -73,3 +83,4 @@ ls -l | grep flush > out.txt
 
 # Terminate the program using CTRL + D
 ```
+
