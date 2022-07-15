@@ -14,6 +14,12 @@ Flush supports the following:
 
 See examples below.
 
+## Demo
+
+![Demo](./media/demo.gif)
+
+In the demo above, you can see some of the supported commands in this shell.
+
 ## Running the application
 
 ### Using `cmake` and `make`
